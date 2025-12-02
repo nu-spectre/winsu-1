@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
   <head>
@@ -873,19 +874,16 @@
     </section>
 
     <script>
-      // Mobile menu toggle for Beranda
       function toggleMobileMenu() {
         const menu = document.getElementById('mobile-menu');
         menu.classList.toggle('hidden');
       }
 
-      // Mobile menu toggle for Wisata
       function toggleMobileMenuWisata() {
         const menu = document.getElementById('mobile-menu-wisata');
         menu.classList.toggle('hidden');
       }
 
-      // Handle login form submission
       function handleLogin(event) {
         event.preventDefault();
         const email = document.getElementById('email').value;
@@ -897,7 +895,6 @@
         }
       }
 
-      // Handle trip confirmation
       function handleTripConfirm(event) {
         event.preventDefault();
         const transport = document.getElementById('transport').value;
@@ -911,7 +908,6 @@
         }
       }
 
-      // Smooth scroll behavior
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener('click', function (e) {
           e.preventDefault();
@@ -925,7 +921,6 @@
         });
       });
 
-      // Update active navigation state based on scroll position
       window.addEventListener('scroll', function () {
         const sections = document.querySelectorAll('section[id]');
         const scrollY = window.pageYOffset;
@@ -948,7 +943,6 @@
         });
       });
 
-      // Page load fade-in animation
       document.addEventListener('DOMContentLoaded', function () {
         document.body.style.opacity = '0';
         setTimeout(function () {
@@ -959,4 +953,5 @@
     </script>
   </body>
 </html>
+
 
