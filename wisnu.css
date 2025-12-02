@@ -1,5 +1,3 @@
-/* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */
-*,
 :before,
 :after {
   box-sizing: border-box;
@@ -850,3 +848,4 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
